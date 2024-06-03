@@ -21,9 +21,7 @@ class CardDogHtmlElemnt extends HTMLElement{
         this.btnLoad = document.createElement('button');     
         this.btnLoad.type = 'button';
         this.btnLoad.name = 'load_img';
-
-        
-
+ 
         this.btnLoad.insertBefore(document.createTextNode('Load Img'), this.btnLoad.firstElementChild);
     
         this.divImgDog = document.createElement('div');
